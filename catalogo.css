@@ -1,0 +1,136 @@
+body{
+	background-color: #DCDCDC;
+	font-family: Arial;
+}
+#logo{
+	font-size: 1.4em;
+}
+#navMenu ul {
+	border-radius: 0em 0em 0.5em 0.5em;
+	background-color:#000000;
+	list-style:none;
+	color: white;
+	width: 91%;
+	padding: 1.22em;
+	font-family: verdana;
+	z-index: 9999;
+	position: relative;
+	margin-top: -0.5em;
+	margin-left: 2.5em;
+}
+#navMenu ul li , #nav-fixed ul li{
+	display: inline;
+	padding-left: 2.5em;
+}
+#navMenu ul li img{
+	margin-left: 0.8em;
+}
+#navMenu ul li a:link {
+    color: white;
+    text-decoration: none;
+}
+#navMenu ul li a:VISITED{
+	color: white;
+	text-decoration: none;
+}
+section {
+	height: 100%;
+	position: relative;
+	margin-top: -0.8em;
+}
+#navbar {
+	background-color: #ffffff;
+	color: black;
+	font-family: verdana;
+	border-radius: 0.5em 0.5em 0em 0em;
+	width: 94%;
+	height: 3em;
+	line-height:3em;
+	position: relative;
+	margin-top: -0.8em;
+	margin-left: 2.5em;
+	border-bottom: 0.12em solid #DCDCDC;
+}
+#navbar ul li a:link{
+	color: #000000;
+	text-decoration: none;
+	
+}
+#navbar ul li a:VISITED {
+	color: #000000;
+	text-decoration: none;
+}
+#navbar ul li {
+	display: inline;
+	padding-left: 6.5em;
+}
+#containerAll{
+	width: 93.98%;
+    position: relative;
+    margin-top: 0em;
+	margin-left: 2.5em;
+    overflow: hidden;
+    height: 100%;
+	display: block;
+	background-color: #ffffff;
+}
+#reference div{
+	position: relative;
+	display: inline-block;
+	width: 28em;	
+	padding-left: 6em;
+	padding-bottom:3em;
+	padding-top: 2em;
+}
+#reference div img, p {
+	padding-left: 12em;
+	padding-right:0em;
+	font-family: Arial;
+	font-weight: bold;
+}
+#reference div ul{
+	list-style: none outside;
+	line-height:1.5em;
+}
+#reference div ul li a:link {
+    color: #000000;
+	background-color: #DCDCDC;
+}
+hr{
+	width: 90%;	
+}
+h3 {
+	color: #808080;
+	margin-left: 3em;
+}
+#container{
+	position: relative;
+	background-color: #ffffff;	
+}
+#container ul{
+	margin: 0em;
+    padding: 0em;
+    list-style: none outside;
+}
+#container ul li {
+	display: inline-block;
+	padding: 2em;
+	margin-left: 1em;
+}
+#container ul li div {
+	margin-top: 0em;
+	width: 18em;
+	text-align: center;
+	font-size: 0.8em;
+}
+#container ul li div a:link {
+    color: #000000;
+	background-color: #DCDCDC;
+}
+#newPrice {
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+#oldPrice{
+	color: #808080;
+}
